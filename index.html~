@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div id="particlesJS"></div>
 		<div class="grid-y grid-frame align-center">
 			<div  class="grid-x align-center">
 				<div class="cell small-8 medium-4">
