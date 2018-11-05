@@ -5,38 +5,46 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Grey De Vera</title>
-		<!-- Foundation Styles -->
 		<link rel="stylesheet" href="foundation/css/foundation.css">
 		<link rel="stylesheet" href="foundationcss/app.css">
-		<!-- Resources -->
-		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
-		<!-- Custom Scripts -->
-		<script src="js/scripts.js"></script>
-		<!-- Custom Styles -->
+		<script src="typedJS/typed.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text"> 
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div id="particlesJS"></div>
 		<div class="grid-y grid-frame align-center">
-			<div  class="grid-x align-center">
-				<div class="cell small-8 medium-4">
-					<p><img alt="Grey De Vera: Web Designer & Developer" src="img/logotype_detailed.svg"></p>
-				</div>
-			</div>
-			<div class="grid-x align-center">
-				<div class="cell small-10 medium-8 text-center">
-					<hr>
-					<p>Grey De Vera is an interdisciplinary web designer and developer. He started writing code during the intermediary years of Web 2.0. Since then, he has been keeping up with the ever-changing web standards and he has been mastering each iteration to achieve a harmony between form and function in his work.</p>
+			<div class="cell shrink">
+				<div class="grid-x">
+					<div class="cell small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
+						<div id="typed-strings">
+							<p>Grey De Vera is an interdisciplinary web designer and developer.</p>
+							<p>He specializes in bringing organizations, products, and services into the future.</p>
+							<p>He believes in the marriage of art and science in creating genuine and timeless experiences and relationships.</p>
+							<p>In his off days, Grey revels in DotA 2, beer, and street photography.</p>
+							<p>You can reach him at grey901129@gmail.com</p>
+							<p>This portfolio will be published soon.</p>
+							<p>Until then...</p>
+							<p>Thanks!</p>
+						</div>
+						<span id="typed"></span>
+						<script>
+							var typed = new Typed('#typed', {
+								stringsElement: '#typed-strings',
+								typeSpeed: 18,
+								backDelay: 5000,
+								fadeOut: true,
+								loop: true,
+							});
+						</script>	
+
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Foundaiton Scripts -->
+
 		<script src="foundation/js/vendor/jquery.js"></script>
 		<script src="foundation/js/vendor/what-input.js"></script>
 		<script src="foundation/js/vendor/foundation.js"></script>
 		<script src="foundation/js/app.js"></script>
-		<!-- ParticlesJS Scripts -->
-		<script src="particlesjs/particles.min.js"></script>
-		<script src="particlesjs/app.js"></script>
 	</body>
 </html>
