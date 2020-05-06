@@ -1,6 +1,61 @@
+html,body,body>div {
+    height: 100%;
+}
+
 body {
-	font-family:"Crimson Text",serif;
-	font-size:2em;
-	font-weight:bold;
-	text-align:center;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+body>div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+body>div>div:nth-child(1) {
+    flex-grow: 1;
+}
+
+body>div>div:nth-child(1)>div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+h1 {
+    display: none;
+}
+
+p,span,a {
+    font-family: "Libre Baskerville",serif;
+}
+
+main p {
+    font-size: 4vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    vertical-align: baseline;
+}
+
+main span {
+    font-size: 3vh;
+    font-style: italic;
+}
+
+body>div>div:nth-child(2) {
+    flex-shrink: 1;
+}
+
+footer p {
+    font-size: 2vh;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }

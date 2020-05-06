@@ -1,53 +1,58 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Grey De Vera</title>
-		<meta name="description" content="Grey De Vera is an interdisciplinary web designer and developer specializing in bringing organizations, products, and services into the future.">
-		<meta name="keywords" content="Grey De Vera,Web,Designer,Developer">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
 		<meta name="author" content="Grey De Vera">
-		<link rel="stylesheet" href="foundation/css/foundation.css">
-		<link rel="stylesheet" href="foundationcss/app.css">
-		<script src="typedJS/typed.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text"> 
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	</head>
 	<body>
-		<div class="grid-y grid-frame align-center">
-			<div class="cell shrink">
-				<div class="grid-x">
-					<div class="cell small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
-						<div id="typed-strings">
-							<p>Grey De Vera is an interdisciplinary web designer and developer.</p>
-							<p>He specializes in bringing organizations, products, and services into the future.</p>
-							<p>He believes in the marriage of art and science in creating genuine and timeless experiences and relationships.</p>
-							<p>In his off days, Grey revels in DotA 2, beer, and street photography.</p>
-							<p>You can reach him at grey901129@gmail.com.</p>
-							<p>This portfolio will be published soon.</p>
-							<p>Until then...</p>
-							<p>Thanks!</p>
-						</div>
-						<span id="typed"></span>
-						<script>
-							var typed = new Typed('#typed', {
-								stringsElement: '#typed-strings',
-								typeSpeed: 18,
-								backDelay: 5000,
-								fadeOut: true,
-								loop: true,
-							});
-						</script>	
-
+		<div>
+			<div>
+				<div>
+					<div>
+						<header>
+							<h1>Grey De Vera</h1>
+						</header>
+						<main>
+							<p>Hello, I'm Grey.</p>
+							<div id="typedJS-strings">
+								<p>I manage straight-forward, lightweight, and cost-efficient IT systems.</p>
+								<p>I create sensible and stylish brands.</p>
+								<p>I design and develop content-driven websites.</p>
+								<p>I photograph life in the streets.</p>
+								<p>I find pleasure in using the Bash.</p>
+								<p>I think timeless typography is tasteful.</p>
+								<p>I have a thing for practical vanilla programming.</p>
+								<p>I'm gonna make you an offer you can't refuse.</p>
+							</div>
+							<span id="typedJS"></span>
+						</main>
 					</div>
 				</div>
 			</div>
+			<div>
+				<footer>
+					<p><a href="mailto:grey901129@gmail.com" target="_blank">Mail</a> &bull; <a href="https://www.linkedin.com/in/greydevera/" target="_blank">LinkedIn</a> &bull; <a href="https://www.behance.net/greydevera" target="_blank">Behance</a></p>
+				</footer>
+			</div>
 		</div>
 
-		<script src="foundation/js/vendor/jquery.js"></script>
-		<script src="foundation/js/vendor/what-input.js"></script>
-		<script src="foundation/js/vendor/foundation.js"></script>
-		<script src="foundation/js/app.js"></script>
+		<script>
+  			var typed = new Typed('#typedJS', {
+				stringsElement: '#typedJS-strings',
+				shuffle:true,
+				typeSpeed:30,
+				backDelay:3000,
+				fadeOut:true,
+				loop:true,
+  			});
+		</script>
 	</body>
 </html>
